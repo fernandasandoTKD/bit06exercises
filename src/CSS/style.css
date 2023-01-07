@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/src/images/fondo_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 40px;
+    text-align:center;
+    padding-top: 5px;
+    color:#3999da;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.accordion{
+    opacity: .9;  
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 30vh;
+    gap: 10px;   
+}
+
+input{
+    outline: 0;
+    background-color: #ffffbf;
+    width: 80%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+label, .accordion-button{
+    font-size: 20px;
+    color:#010101;
+    font-family: 'East Sea Dokdo', cursive;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 786px){
+    input{
+        outline: 0;
+        background-color: #ffffbf;
+        width: 50%;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    label, .accordion-button{
+        font-size: 12px;
+        color:#010101;
+        font-family: 'East Sea Dokdo', cursive;
+        font-weight: bold;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 30vh;
+        gap: 10px;   
+    }
+    body{
+        background-image: url(/src/images/fondo_3.jpg);
+        
+    }
+   
+    
+}
