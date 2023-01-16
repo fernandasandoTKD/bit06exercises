@@ -70,7 +70,7 @@ function verFormulario() {
    if(obj.user===permitido.user && 
       parseInt(obj.pass)===permitido.pass){
       
-       window.open("http://127.0.0.1:5500/exercises.html","_self"); 
+       window.open("../exercises.html","_self"); 
    }else{
       alert('¡Acceso denegado! revise sus credenciales', 'warning');
    } 
