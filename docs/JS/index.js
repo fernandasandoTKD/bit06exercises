@@ -64,8 +64,8 @@ function verFormulario() {
    } */
  try{
     const permitido={
-      user:"Luisa",
-      pass:1030,
+      user:"bit",
+      pass:2023,
    };
    if(obj.user===permitido.user && 
       parseInt(obj.pass)===permitido.pass){

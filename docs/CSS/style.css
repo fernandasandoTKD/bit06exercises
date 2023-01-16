@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/src/images/fondo_2.jpg);
+    background-image: url(../images/fondo_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -73,7 +73,7 @@ label, .accordion-button{
         gap: 10px;   
     }
     body{
-        background-image: url(/src/images/fondo_3.jpg);
+        background-image: url(../images/fondo_3.jpg);
         
     }
    
